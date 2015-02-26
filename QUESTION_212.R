@@ -17,6 +17,6 @@ gMCSims <- function() {
 doIt <- function() {
   gMC <- NULL
   gMC <- replicate(1e5,c(gMC,gMCSims()) )
-  mean(gMC[3,])
+  mean(gMC[3,]) # This will not print in the console
   sd(gMC[3,])   # This is the answer
 }
