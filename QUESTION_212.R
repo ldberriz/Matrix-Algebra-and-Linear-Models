@@ -13,8 +13,9 @@ gMCSims <- function() {
   gCal
 }
 
-gMC <- NULL
-gMC <- replicate(1e5,c(gMC,gMCSims()) )
-mean(gMC[3,])
-sd(gMC[3,])   # This is the answer
-
+doIt <- function() {
+  gMC <- NULL
+  gMC <- replicate(1e5,c(gMC,gMCSims()) )
+  mean(gMC[3,])
+  sd(gMC[3,])   # This is the answer
+}
