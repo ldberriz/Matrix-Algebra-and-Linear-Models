@@ -45,3 +45,6 @@ Temporary Items
 .Rproj.user/89084F2B/sdb/prop/INDEX
 .Rproj.user/89084F2B/sdb/s-A00062B9/3C57991
 .Rproj.user/89084F2B/sdb/s-A00062B9/lock_file
+*.pper
+*.RData
+.Rproj.user/
