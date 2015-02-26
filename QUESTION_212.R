@@ -1,4 +1,5 @@
 # QUESTION 2.1.2
+# Edx Course
 
 gMCSims <- function() {
   g<-9.8 ## meters per second
