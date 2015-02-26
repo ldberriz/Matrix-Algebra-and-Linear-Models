@@ -1,5 +1,7 @@
 # QUESTION 2.1.2
 # Edx Course
+# url: https://courses.edx.org/courses/HarvardX/PH525.2x/
+
 
 gMCSims <- function() {
   g<-9.8 ## meters per second
